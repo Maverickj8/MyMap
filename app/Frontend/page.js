@@ -3,7 +3,7 @@ import Nav from "../Nav/page";
 
 const Frontend = () => {
   return (
-    <>
+    <section className="bg-black h-full">
       <Nav />
       <section className="px-10 py-10">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
@@ -53,19 +53,19 @@ const Frontend = () => {
               Essential topics in HTML
             </p>
             <ul className="list-disc">
-              <li>Doctype</li>
-              <li>Meta</li>
-              <li>Head and Body</li>
-              <li>HTML Semantics</li>
-              <li>Tags</li>
-              <li>Nesting</li>
-              <li>Input</li>
-              <li>Input properties</li>
-              <li>Image</li>
-              <li>Links</li>
-              <li>Form</li>
-              <li>Form Handling</li>
-              <li>Button</li>
+              <li className="text-white">Doctype</li>
+              <li className="text-white">Meta</li>
+              <li className="text-white">Head and Body</li>
+              <li className="text-white">HTML Semantics</li>
+              <li className="text-white">Tags</li>
+              <li className="text-white">Nesting</li>
+              <li className="text-white">Input</li>
+              <li className="text-white">Input properties</li>
+              <li className="text-white">Image</li>
+              <li className="text-white">Links</li>
+              <li className="text-white">Form</li>
+              <li className="text-white">Form Handling</li>
+              <li className="text-white">Button</li>
             </ul>
           </div>
         </div>
@@ -165,21 +165,21 @@ const Frontend = () => {
               Essential topics in CSS
             </p>
             <ul className="list-disc">
-              <li>How to add CSS to your project.</li>
-              <li>Selectors.</li>
-              <li>Colors</li>
-              <li>Fonts and Fonts properties.</li>
-              <li>CSS Inspection.</li>
-              <li>The model Box.</li>
-              <li>How competing styles are resolved.</li>
-              <li>Positioning</li>
-              <li>Display</li>
-              <li>Grid</li>
-              <li>Flex</li>
-              <li>Media Query</li>
-              <li>Animation</li>
-              <li>Bootstrap</li>
-              <li>Tailwind</li>
+              <li className="text-white" >How to add CSS to your project.</li>
+              <li className="text-white">Selectors.</li>
+              <li className="text-white">Colors</li>
+              <li className="text-white">Fonts and Fonts properties.</li>
+              <li className="text-white">CSS Inspection.</li>
+              <li className="text-white">The model Box.</li>
+              <li className="text-white">How competing styles are resolved.</li>
+              <li className="text-white">Positioning</li>
+              <li className="text-white">Display</li>
+              <li className="text-white">Grid</li>
+              <li className="text-white">Flex</li>
+              <li className="text-white">Media Query</li>
+              <li className="text-white">Animation</li>
+              <li className="text-white">Bootstrap</li>
+              <li className="text-white">Tailwind</li>
             </ul>
           </div>
         </div>
@@ -352,31 +352,31 @@ const Frontend = () => {
               Essential topics in Javascript
             </p>
             <ul className="list-disc">
-              <li>Meaning</li>
-              <li>Applications</li>
-              <li>Javascript Keywords</li>
-              <li>Variable and variable declaration</li>
-              <li>Datatype</li>
-              <li>Stings and String methods</li>
-              <li>Operators and types of operators</li>
-              <li>Number and Number methods</li>
-              <li>Math and Math methods</li>
-              <li>Objects</li>
-              <li>Object-oriented Programming (OOP)</li>
-              <li>Truthy and falsy values</li>
-              <li>Branching</li>
-              <li>Data objects</li>
-              <li>Array and Array methods</li>
-              <li>Date</li>
-              <li>Loops</li>
-              <li>Date</li>
-              <li>Functions and types of functions</li>
-              <li>DOM and DOM Manipulation</li>
-              <li>Functions and types of functions</li>
-              <li>Hoistin</li>
-              <li>Callbacks</li>
-              <li>Promises</li>
-              <li>Async and Await</li>
+              <li className="text-white">Meaning</li>
+              <li className="text-white">Applications</li>
+              <li className="text-white">Javascript Keywords</li>
+              <li className="text-white">Variable and variable declaration</li>
+              <li className="text-white">Datatype</li>
+              <li className="text-white">Stings and String methods</li>
+              <li className="text-white">Operators and types of operators</li>
+              <li className="text-white">Number and Number methods</li>
+              <li className="text-white">Math and Math methods</li>
+              <li className="text-white">Objects</li>
+              <li className="text-white">Object-oriented Programming (OOP)</li>
+              <li className="text-white">Truthy and falsy values</li>
+              <li className="text-white">Branching</li>
+              <li className="text-white">Data objects</li>
+              <li className="text-white">Array and Array methods</li>
+              <li className="text-white">Date</li>
+              <li className="text-white">Loops</li>
+              <li className="text-white">Date</li>
+              <li className="text-white">Functions and types of functions</li>
+              <li className="text-white">DOM and DOM Manipulation</li>
+              <li className="text-white">Functions and types of functions</li>
+              <li className="text-white">Hoistin</li>
+              <li className="text-white">Callbacks</li>
+              <li className="text-white">Promises</li>
+              <li className="text-white">Async and Await</li>
             </ul>
           </div>
         </div>
@@ -420,27 +420,27 @@ const Frontend = () => {
               Essential topics in React
             </p>
             <ul className="list-disc">
-              <li>What is React</li>
-              <li>Nodejs Installation</li>
-              <li>NPM package Installation</li>
-              <li>How to run your app on localhost</li>
-              <li>JSX</li>
-              <li>Importing and Installing dependencies</li>
-              <li>Package.json</li>
-              <li>Components</li>
-              <li>Styling</li>
-              <li>Controlled inputs</li>
-              <li>Props</li>
-              <li>useState()</li>
-              <li>useEffect()</li>
-              <li>useRef()</li>
-              <li>useContext()</li>
-              <li>useReducer()</li>
-              <li>API</li>
-              <li>Add EventListener</li>
-              <li>Tenary operators</li>
-              <li>React Router</li>
-              <li>React Navigation</li>
+              <li className="text-white">What is React</li>
+              <li className="text-white">Nodejs Installation</li>
+              <li className="text-white">NPM package Installation</li>
+              <li className="text-white">How to run your app on localhost</li>
+              <li className="text-white">JSX</li>
+              <li className="text-white">Importing and Installing dependencies</li>
+              <li className="text-white">Package.json</li>
+              <li className="text-white">Components</li>
+              <li className="text-white">Styling</li>
+              <li className="text-white">Controlled inputs</li>
+              <li className="text-white">Props</li>
+              <li className="text-white">useState()</li>
+              <li className="text-white">useEffect()</li>
+              <li className="text-white">useRef()</li>
+              <li className="text-white">useContext()</li>
+              <li className="text-white">useReducer()</li>
+              <li className="text-white">API</li>
+              <li className="text-white">Add EventListener</li>
+              <li className="text-white">Tenary operators</li>
+              <li className="text-white">React Router</li>
+              <li className="text-white">React Navigation</li>
             </ul>
           </div>
         </div>
@@ -472,35 +472,35 @@ const Frontend = () => {
               Essential topics in Next
             </p>
             <ul className="list-disc">
-              <li>What is Next</li>
-              <li>Nodejs Installation</li>
-              <li>NPM package Installation</li>
-              <li>How to run your app on localhost</li>
-              <li>JSX</li>
-              <li>Importing and Installing dependencies</li>
-              <li>Package.json</li>
-              <li>Components</li>
-              <li>Styling</li>
-              <li>Next Image</li>
-              <li>Next Link</li>
-              <li>Controlled inputs</li>
-              <li>Props</li>
-              <li>useState()</li>
-              <li>useEffect()</li>
-              <li>useRef()</li>
-              <li>useContext()</li>
-              <li>useReducer()</li>
-              <li>API</li>
-              <li>Add EventListener</li>
-              <li>Tenary operators</li>
-              <li>Next Routing</li>
-              <li>Dynamic Routing</li>
-              <li>Next Navigation</li>
+              <li className="text-white">What is Next</li>
+              <li className="text-white">Nodejs Installation</li>
+              <li className="text-white">NPM package Installation</li>
+              <li className="text-white">How to run your app on localhost</li>
+              <li className="text-white">JSX</li>
+              <li className="text-white">Importing and Installing dependencies</li>
+              <li className="text-white">Package.json</li>
+              <li className="text-white">Components</li>
+              <li className="text-white">Styling</li>
+              <li className="text-white">Next Image</li>
+              <li className="text-white">Next Link</li>
+              <li className="text-white">Controlled inputs</li>
+              <li className="text-white">Props</li>
+              <li className="text-white">useState()</li>
+              <li className="text-white">useEffect()</li>
+              <li className="text-white">useRef()</li>
+              <li className="text-white">useContext()</li>
+              <li className="text-white">useReducer()</li>
+              <li className="text-white">API</li>
+              <li className="text-white">Add EventListener</li>
+              <li className="text-white">Tenary operators</li>
+              <li className="text-white">Next Routing</li>
+              <li className="text-white">Dynamic Routing</li>
+              <li className="text-white">Next Navigation</li>
             </ul>
           </div>
         </div>
       </section>
-    </>
+    </section>
   );
 };
 

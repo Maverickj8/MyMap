@@ -5,9 +5,9 @@ const Nav = () => {
   return (
     <header>
       <nav className="flex item-center justify-between py-4 px-3 backdrop-blur">
-        <div className="mb-4 text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-pink-500 font-extrabold text-2xl">
+        <Link href="/" className="mb-4 text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-pink-500 font-extrabold text-2xl">
           MyMap
-        </div>
+        </Link>
         <div className="space-x-5">
           <Link
             href="/Frontend"

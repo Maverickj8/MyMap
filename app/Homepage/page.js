@@ -34,7 +34,7 @@ const HomePage = () => {
           developer in 6 months. Everthing you need in one place.
         </p>
       </div>
-      <div className="lg:flex">
+      <div className="lg:flex pb-32">
         <Link
           href="/Frontend"
           className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white text-center"
