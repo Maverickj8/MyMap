@@ -2,10 +2,9 @@ import Link from "next/link";
 import Nav from "../Nav/page";
 
 const Frontend = () => {
-  
   return (
     <>
-    <Nav />
+      <Nav />
       <section className="px-10 py-10">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
           <div>
@@ -18,10 +17,10 @@ const Frontend = () => {
               {" "}
               I started my web development journey on 03/09/2023. As a young
               girl who just finished from the university and uncertain of what
-              the outside world would be like, tried to equip myself with a
-              supposed perfect skill in order not to be vulnurable out there.
+              the outside world would be like, I tried to equip myself with a
+              supposed perfect skill in order not to be vulnerable out there.
               Choosing a niche was really hard for me because there were so many
-              option. I went for web development because I heard it was the
+              options. I went for web development because I heard it was the
               hardest and probably people who learn it are the most paid LOL (SO
               IT WAS FOR THE MONEY!).
             </p>
@@ -36,9 +35,9 @@ const Frontend = () => {
           <div>
             <p className="text-base  text-[#ADB7BE]">
               Before I started, I decided to find a tutor. This decision was
-              based on the fact that i have tried learning on my own but was not
-              able to achieve a lot. On that note i got a private tutor who
-              taught me on google meet (I guess This was the reason i was so
+              based on the fact that I have tried learning on my own but was not
+              able to achieve a lot. On that note I got a private tutor who
+              taught me on google meet (I guess this was the reason I was so
               fast in my learning process.)
             </p>
           </div>
@@ -97,19 +96,19 @@ const Frontend = () => {
             </p>
             <p className="text-base text-[#ADB7BE] mb-2">
               <span className="text-lg font-bold text-white mb-4">Meta: </span>
-              This is where SEO is put into consideratiom
+              This is where SEO is put into consideration.
             </p>
             <p className="text-base text-[#ADB7BE] mb-2">
               <span className="text-lg font-bold text-white mb-4">
                 Body and Head:
               </span>{" "}
-              Understand the main b
+              Understand the main parts of HTML.
             </p>
             <p className="text-base text-[#ADB7BE] mb-2">
               <span className="text-lg font-bold text-white mb-4">
                 HTML Semantics:
               </span>{" "}
-              This is a very important topic in HTML because it hepls a lot in
+              This is a very important topic in HTML because it helps a lot in
               Search Engine Optimisation (SEO).
             </p>
             <p className="text-base text-[#ADB7BE] mb-2">
@@ -133,7 +132,7 @@ const Frontend = () => {
             </p>
             <p className="text-base text-[#ADB7BE] mb-2">
               <span className="text-lg font-bold text-white mb-4">Image:</span>{" "}
-              Learn how to add images to your project usin SRC and always add
+              Learn how to add images to your project using SRC and always add
               ALT (it is also important for SEO).
             </p>
             <p className="text-base text-[#ADB7BE] mb-2">
@@ -274,7 +273,7 @@ const Frontend = () => {
               <span className="text-lg font-bold text-white mb-4">
                 CSS Inspection:
               </span>{" "}
-              Learn how to use chrome developertools to inspect CSS.
+              Learn how to use chrome developer tools to inspect CSS.
             </p>
             <p className="text-base text-[#ADB7BE] mb-2">
               <span className="text-lg font-bold text-white mb-4">
@@ -287,7 +286,7 @@ const Frontend = () => {
               <span className="text-lg font-bold text-white mb-4">
                 How competing styles are resolved:
               </span>{" "}
-              Learn how select elements in the parent or child of a HTML tag.
+              Learn how to select elements in the parent or child of a HTML tag.
             </p>
             <p className="text-base text-[#ADB7BE] mb-2">
               <span className="text-lg font-bold text-white mb-4">
@@ -337,7 +336,7 @@ const Frontend = () => {
               <span className="text-lg font-bold text-white mb-4">
                 Tailwind:
               </span>{" "}
-              Tailwindis another CSS framework that is just like Bootstrap.
+              Tailwind is another CSS framework that is just like Bootstrap.
             </p>
           </div>
         </div>
