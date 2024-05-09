@@ -7,8 +7,8 @@ import Link from "next/link";
 const HomePage = () => {
   return (
     <main className="flex flex-col items-center justify-center space-y-9 h-full mt-20">
-      <div>
-        <h1 className="text-center  sm:text-3xl lg:text-5xl lg:leading-normal text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 font-extrabold text-3xl">
+      <div >
+        <h1 className="text-center  sm:text-5xl lg:text-5xl lg:leading-normal text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 font-extrabold text-5xl">
           {" "}
           <TypeAnimation
             sequence={[
@@ -29,7 +29,7 @@ const HomePage = () => {
         </h1>
       </div>
       <div className="text-center text-[#ADB7BE] w-80">
-        <p>
+        <p className="lg:text-xl text-2xl">
           This is a realistic roadmap that will help you become a full-stack
           developer in 6 months. Everthing you need in one place.
         </p>
