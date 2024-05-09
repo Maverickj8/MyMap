@@ -1,7 +1,7 @@
 "use client";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
-import Login from "../Login/page";
+// import Login from "../Login/page";
 
 
 const HomePage = () => {
@@ -41,7 +41,7 @@ const HomePage = () => {
         >
           Get Started
         </Link>
-       <Login />
+       {/* <Login /> */}
       </div>
     </main>
   );
